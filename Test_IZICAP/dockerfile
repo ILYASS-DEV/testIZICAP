@@ -1,0 +1,4 @@
+FROM openjdk:8
+COPY target/DockerIZICAP.jar DockerIZICAP.jar
+EXPOSE 8081
+ENTRYPOINT ["java", "-jar", "DockerIZICAP.jar" ]
