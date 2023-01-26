@@ -1,9 +1,9 @@
 # testIZICAP
 
 
-1.clone the code.
-2.set your chatgpt.api-key in "ChatGPTService class".
-3.run it, and then you can chat with chatgpt by this api.
+1.clone the code.<br />
+2.set your chatgpt.api-key in "ChatGPTService class".<br />
+3.run it, and then you can chat with chatgpt by this api.<br />
 
 *request
 >curl --location --request GET '127.0.0.1:8080/send?message=What is gluten sensitivity?',
